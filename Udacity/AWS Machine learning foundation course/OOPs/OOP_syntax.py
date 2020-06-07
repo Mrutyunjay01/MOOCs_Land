@@ -18,7 +18,7 @@ class Shirt:
     def discount(self, discount):
         return self.price * (1 - discount)
 
-
+"""
 # instantiating an object
 Shirt('red', 'S', 'short-sleeveless', 15)
 
@@ -42,3 +42,4 @@ tshirt_collections.append(shirt_three)
 
 for i in range(len(tshirt_collections)):
     print(tshirt_collections[i].color)
+"""
