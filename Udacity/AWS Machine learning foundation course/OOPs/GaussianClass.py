@@ -135,3 +135,28 @@ class Gaussian:
         plt.show()
 
         return x, y
+
+    def __add__(self, other):
+        """
+        Adds two gaussian instances.
+        
+        params:
+            other : (Gaussian())
+        returns:
+            result gaussian Instance
+        """
+        
+        result = Gaussian()
+        result.mean = self.mean + other.mean
+        result.stdev = math.sqrt(self.stdev**2 + other.stdev**2)
+        
+        return result
+    
+    def __repr__(self):
+        """
+        Prints the Mean and standard deviation.
+        """
+        
+        return 'mean {}, standard Deviation {}'.format(self.mean, self.stdev)
+    
+    
