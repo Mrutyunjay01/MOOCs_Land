@@ -3,10 +3,10 @@ import socket
 # set up the socket with valid port number
 my_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # set up the connection
-my_socket.connect(('data.pr4e.org', 80))
+my_socket.connect(('127.0.0.1', 9000))
 
 # encode the command into utf-8 from unicode string
-cmd = 'GET http://data.pr4e.org/page1.htm HTTP/1.0\r\n\r\n'.encode()
+cmd = 'GET http://127.0.0.1/romeo.txt HTTP/1.1\r\n\r\n'.encode()
 # send the command via socket
 my_socket.send(cmd)
 
