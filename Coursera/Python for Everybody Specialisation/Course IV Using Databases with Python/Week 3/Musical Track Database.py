@@ -35,7 +35,9 @@ CREATE TABLE Track (
     title TEXT  UNIQUE,
     album_id  INTEGER,
     genre_id  INTEGER,
-    len INTEGER, rating INTEGER, count INTEGER
+    len INTEGER, 
+    rating INTEGER, 
+    count INTEGER
 );
 ''')
 
@@ -43,8 +45,9 @@ file_name = input("Enter file path: ", )
 if len(file_name) < 1:
     file_name = 'tracks/Library.xml'
 
-work_data = ET.parse(file_name)
-data = work_data.findall('dict/dict/dict')
+tree = ET.parse(file_name)
+root = tree.getroot()
+data = root.findall('./dict/dict/dict')
 print('Dict count: ', len(data))
 
 
@@ -121,9 +124,9 @@ for i, parent in enumerate(data):
     print('Inserting into Track Table: \n')
     print('Track Name: ', name)
     cur.execute('''INSERT OR REPLACE INTO Track
-        (title, album_id, len, rating, count) 
-        VALUES ( ?, ?, ?, ?, ? )''',
-                (name, album_id, length, rating, count))
+        (title, album_id, genre_id, len, rating, count) 
+        VALUES ( ?, ?, ?, ?, ?, ? )''',
+                (name, album_id, genre_id, length, rating, count))
     conn.commit()
 
 conn.close()
