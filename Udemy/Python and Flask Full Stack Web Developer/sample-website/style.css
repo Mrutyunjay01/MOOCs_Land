@@ -12,3 +12,17 @@ h1{
     text-align: center;
 
 }
+
+#quote {
+    font-style: italic;
+}
+
+.para {
+    font-size: 25px;
+    color: blue;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+}
