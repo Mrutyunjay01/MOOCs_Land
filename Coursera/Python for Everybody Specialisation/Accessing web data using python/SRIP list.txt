@@ -1,0 +1,59 @@
+1. Done
+-GK0000001	
+-Labview controlled Humidity and temperature setup for proton conductivity measurements	
+This project involves setting up a humidity and temperature sensor using Arduino and Labview programs. This set up will be used to measure the proton conductivity through graphene laminates at different humidity and temperature conditions.
+-Gopinadhan Kalon
+2. Done
+-JM0000004	
+-Approximate computing	
+This project involves implementing neural networks, image processing applications, filters, etc. using approximate computing.
+-Joycee Mekie
+3. Done
+-KPMS000001	
+-Biomedical ultrasound imaging for characterizing tissues
+Changes in tissue structure are associated with various diseases. Effective diagnostic techniques are needed to differentiate tissue structure between disease stages. Ultrasound is a relatively low-cost and accessible imaging modality. However, conventional brightness-mode ultrasound imaging provides limited information about tissue structure. The goal of this project is to develop non-conventional quantitative ultrasound backscatter techniques that can be used to assess changes in tissue structure at different disease stages. These techniques extract quantitative information from backscattered signals by compensating for physical and system parameters. Characterization of tissue structure are based on parameters that represent the number, size, and organization of tissue scatterers, which can change due to disease. To achieve our project goal, we will pursue the following objectives. First, we will simulate the quantitative backscatter imaging techniques in the numerical simulation tool MATLAB, and then implement them using a prototype mechanically-scanned ultrasound system. Second, we will develop tissue-mimicking numerical and hydrogel phantoms for validating the proposed ultrasound techniques. Based on the interest and skill-set of the students, the project can be tuned to emphasize either numerical simulations or experimental studies. Skills in MATLAB and/or electronic instrumentation will be helpful for pursuing the project objectives. The expected learning outcomes for students include in-depth experience of biomedical imaging simulations, experimental measurements, and image processing using MATLAB.
+-Karla Patricia Mercado-Shekhar
+4. Done
+-UB0000004
+-Deep learning applications in atmospheric processes	
+-Udit Bhatia
+5. Done
+-SR0000003	
+-Deep Learning for 3D Data Processing and Reconstruction	
+The project would involve scanning, processing, and printing of 3D artefacts from cultural heritage venues. The processing and reconstruction would be performed using 3D deep learning neural network architectures.
+-Shanmuganathan Raman
+6. Done
+-RH0000001	
+-Deep Learning for Engineering Design	
+We explore the possibility of using artificial intelligence techniques for engineering tasks like design and optimization. Background in deep learning, excellent programming skills and mathematical proficiency is expected.
+-Ravi Hegde
+7. Done
+-NK0000003	
+-Sources and Forgeries in Image and Videos
+This project involves image processing and machine learning for systems for detecting and classifying forgeries in images and videos, Particularly relevant to students in Computer science, ECE and related disciplines. Please see Prof. Nitin Khanna's website for more details.
+-Nitin Khana
+8. Done
+-NK0000002
+-Image processing for crater detection and classification	
+This project involves image processing for systems for detecting and classifying lunar craters, Please see Prof. Nitin Khanna's website for more details.
+-Nitin Khanna
+9. Done
+-NK0000001	
+-Machine learning based systems for detecting and classifying lunar craters	
+This project involves developing machine learning based systems for detecting and classifying lunar craters and applying it on Chandrayaan datasets as well as data from other global missions.
+-Nitin Khanna
+10. Done
+-NB0000005
+-IoT tools development and deployment for IITGN campus
+This internship would largely be engineering in nature and involve developing working solutions for monitoring air quality, water, WiFi etc. in the campus. We have already developed prototypes and have deployed them throughout the campus. The primary skills of interest would be: embedded systems.
+-Nipun Batra
+11. Done
+-MK0000003
+-Machine learning applications in structural health assessment	
+This project is to develop tools to accurately assess the health of some structural members. Relevant experimental data will be used to develop the tools. The tools will be tested on real structures.
+-Manish Kumar
+12. 
+-MJ0000007	
+-Mechatronics/Bots
+In this projects students will Design exciting game-based projects using electronic devices like Arduino, Raspberry Pi, servo and stepper motors, sensors and more. One idea to think you will make a hexapod machine that will mimic the exact motion of real hexapod. Another idea is make a machine and code it such, that it will be like a four-legged robot which mimics a cat.. Yet another idea to think sound waves at ultrasonic frequencies which can be used to levitate objects. Other ideas are a basketball or rc airplane – the list can go on as long and as big as your imagination takes you!
+-Manish Jain
