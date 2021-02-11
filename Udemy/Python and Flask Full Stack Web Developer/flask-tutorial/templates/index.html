@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'base.html' %}
+<head>
+    <meta charset="UTF-8">
+    {% block title %} Index Page {% endblock %}
+</head>
+<body>
+{% block body %}
+    <h1>Hello World!</h1>
+    <h2>Target conferences are:</h2>
+    <ul>
+        {% for conf in conferences %}
+        <li>{{ conf }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
+</body>
+</html>
