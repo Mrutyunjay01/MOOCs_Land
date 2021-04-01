@@ -1,9 +1,8 @@
-from flask import Flask, render_template
+from flask import render_template
+from app import app
 
-app = Flask(__name__)
 
-
-@app.route('/')
+@app.route('/home')
 def index():
     conferences = ["ICCV", "NIPS", "EUSIPCO"]
     return render_template('index.html', conferences=conferences)
@@ -14,3 +13,7 @@ def index():
 def user(name):
     return render_template('user.html', name=name)
     pass
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
